@@ -29,6 +29,11 @@ const Navbar = () => {
             title : "Categories",
             path : '/categories'
         }
+        ,
+        {
+            title : "Dashboard",
+            path : '/dashboard'
+        }
         
     ]
     const handler = () => {
