@@ -1,3 +1,4 @@
+import AboutComponents from '@/Components/AboutComponents';
 import React from 'react';
 
 const aboutPage = () => {
@@ -5,6 +6,7 @@ const aboutPage = () => {
         <div>
             <p>Hello dude
             </p>
+            <AboutComponents></AboutComponents>
         </div>
     );
 };
