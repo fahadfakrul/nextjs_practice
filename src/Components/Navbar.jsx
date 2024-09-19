@@ -29,6 +29,10 @@ const Navbar = () => {
     const handler = () => {
            router.push('/login')
     }
+    if (pathName.includes('dashboard'))
+        return(
+    <div className='bg-green-400'>Dashboard Layout </div>
+        )
     return (
         <div className=''>
             <ul className='flex items-center justify-center gap-2'>
