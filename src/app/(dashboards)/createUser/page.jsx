@@ -3,7 +3,7 @@ import React from 'react';
 const page = () => {
     return (
         <div>
-            Create user
+            Create user page
         </div>
     );
 };
